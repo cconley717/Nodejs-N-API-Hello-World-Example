@@ -4,16 +4,11 @@ A simple Hello World example for Nodejs using the C/C++ N API running on Windows
 ```gyp
 -from administrative command line
 npm install -g windows-build-tools
-```
-
-```gyp
 npm install -g node-gyp rebuild
 ```
 
 ```gyp
+-from the root of project directory
 npm install
-```
-
-```gyp
 node script.js
 ```
